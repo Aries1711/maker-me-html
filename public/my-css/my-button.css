@@ -1,0 +1,83 @@
+.btn-solid-primary {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px;
+    color: #fff;
+    cursor: pointer;
+    height: 35px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .btn-solid-primary:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .btn-solid-primary:focus {
+    outline: none;
+  }
+  
+  .btn-solid-primary.animate {
+      background-image: linear-gradient(
+        to right,
+        #667eea,
+        #6C6CDC,
+        #6C6CDC,
+        #8e37d7
+      );
+      box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  }
+
+  .btn-transparent {
+    width: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+    height: 35px;
+    text-align:center;
+    background-color: transparent;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .btn-transparent:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .btn-transparent:focus {
+    outline: none;
+  }
+  
+  .btn-transparent.active {
+      background-image: linear-gradient(
+        to right,
+        #667eea,
+        #6C6CDC,
+        #6C6CDC,
+        #8e37d7
+      );
+      box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  }
+
