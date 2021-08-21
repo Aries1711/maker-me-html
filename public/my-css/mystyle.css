@@ -1,11 +1,44 @@
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 /* constanta value */
-.color-primary{
-    color: #6C6CDC;
+.color-primary {
+  color: #6c6cdc;
 }
 
 /* navbar section */
 
+.nav-link {
+  color: #4d4d51;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.nav-link.active {
+  color: #6c6cdc;
+}
+
+/* home css */
+
+.home {
+  background: url("../img/bg-home.svg") no-repeat;
+  background-size: 680px auto;
+}
+
+/* banner section */
+
+.home .site-main .maker-banner .text-main-title {
+  color: #00006a;
+  font-weight: 700;
+}
+
+.home .site-main .maker-banner .text-secondary-title {
+  color: #4d4d51;
+  font-weight: 600;
+}
+
+.home .site-main .maker-banner .text-main-description {
+  color: #797070;
+  font-weight: 600;
+}
