@@ -7,6 +7,10 @@ body {
   color: #6c6cdc;
 }
 
+.clearfix{
+  height: 140px;
+}
+
 /* navbar section */
 
 .nav-link {
@@ -39,6 +43,26 @@ body {
 }
 
 .home .site-main .maker-banner .text-main-description {
+  color: #797070;
+  font-weight: 600;
+}
+
+.home .site-main .maker-slider{
+  margin-bottom: 400px;
+  padding-bottom: 200px;
+}
+
+.home .site-main .maker-slider .carousel .owl-theme .text-main-title {
+  color: #00006a;
+  font-weight: 700;
+}
+
+.home .site-main .maker-slider .carousel .owl-theme .text-secondary-title {
+  color: #4d4d51;
+  font-weight: 600;
+}
+
+.home .site-main .maker-slider .carousel .owl-theme .text-main-description {
   color: #797070;
   font-weight: 600;
 }
