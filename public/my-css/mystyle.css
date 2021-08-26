@@ -40,6 +40,7 @@ body {
 .home .site-main .maker-banner .text-secondary-title {
   color: #4d4d51;
   font-weight: 600;
+  font-size: 18px;
 }
 
 .home .site-main .maker-banner .text-main-description {
@@ -53,6 +54,7 @@ body {
 }
 
 .home .site-main .maker-slider .carousel .owl-theme .text-main-title {
+  padding-bottom: 20px;
   color: #00006a;
   font-weight: 700;
 }
@@ -60,9 +62,38 @@ body {
 .home .site-main .maker-slider .carousel .owl-theme .text-secondary-title {
   color: #4d4d51;
   font-weight: 600;
+  font-size: 18px;
 }
 
 .home .site-main .maker-slider .carousel .owl-theme .text-main-description {
   color: #797070;
   font-weight: 600;
+}
+
+.home .site-main .maker-slider .carousel .owl-theme .label-linear-left {
+  background-image: linear-gradient(
+    to right,
+    #667eea,
+    #6c6cdc,
+    #6c6cdc,
+    #8e37d7
+  );
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.home .site-main .maker-slider .carousel .owl-theme .label-linear-right {
+  background-image: linear-gradient(
+    to left,
+    #667eea,
+    #6c6cdc,
+    #6c6cdc,
+    #563ead
+  );
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
